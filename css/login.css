@@ -1,0 +1,70 @@
+html,body{
+          
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+#box{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    justify-items: center;
+    background-color: white;
+}
+
+.info{
+   width: 440px;
+   height: 100px;
+   margin-top: 60px;
+   text-align: center;
+  
+}
+.items{
+   margin-top: 20px;
+}
+.items input{
+   width: 300px;
+   height: 20px;
+   /* border-radius: 4px; */
+}
+.passItem{
+   margin-right: 15px;
+}
+.btn1{
+  width: 60px;
+  float: left;
+}
+.btn2{
+   width: 60px;
+   display: none;
+} 
+.userInfo{
+   height: 12px;
+   text-indent: 50px;
+   color: red;
+   font-size: 12px;
+}
+.upf{
+height: 12px;
+   text-indent: 50px;
+   color: red;
+   font-size: 12px;
+}
+.btn_box{
+   width: 170px;
+   margin-top: 40px;
+   margin-left: 200px;
+}
+.active{
+   color: red;
+   width: 60px;
+}
+.hInfo{
+   width: 100px;
+   justify-content: space-between;
+      margin-top: 20px;
+      margin-left: 200px;
+      display: flex;
+      cursor: default;
+}
